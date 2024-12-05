@@ -38,9 +38,6 @@ A Recipe Book Application built with React that allows users to add, view, categ
 - **Distinctive Styling for Favourite Recipes**: Favourites are highlighted with a distinct style to make them easily recognizable.
 - **Organized Layout**: The app features a clean, well-organized layout for the form, recipe list, and other sections.
 
-## Installation
-
-To get started with the RecipeBook project, follow these steps:
 
 1. Clone the repository:
    ```bash
