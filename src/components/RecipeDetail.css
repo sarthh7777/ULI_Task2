@@ -1,0 +1,31 @@
+.recipe-detail {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-detail h2 {
+    color: #333;
+  }
+  
+  .recipe-detail p {
+    color: #555;
+  }
+  
+  .favourite-btn, .delete-btn {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .favourite-btn:hover, .delete-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  

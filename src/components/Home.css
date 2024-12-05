@@ -1,0 +1,24 @@
+
+
+.home {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .home h2 {
+    font-size: 2.5rem;
+    color: #ff5722; 
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      margin-top: 20px;
+    }
+  
+    .home h2 {
+      font-size: 2rem; 
+      margin-bottom: 15px; 
+    }
+  }
+  
