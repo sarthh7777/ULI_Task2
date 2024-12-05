@@ -1,40 +1,70 @@
-# RecipeBook
+# Getting Started with Create React App
 
-A Recipe Book Application built with React that allows users to add, view, categorize, filter, mark recipes as favourites, and delete them. The app uses localStorage to persist data even after refreshing the page.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-### 1. **Recipe Management**
-- **Add New Recipe**: Users can add a new recipe by providing the following details:
-  - **Title** (required, string)
-  - **Ingredients** (required, string)
-  - **Instructions** (required, text area)
-  - **Category** (dropdown with options like “Breakfast”, “Lunch”, “Dinner”, “Dessert”)
+In the project directory, you can run:
 
-### 2. **Recipe List and Details**
-- **View Recipe Details**: When a user clicks on a recipe, the app displays detailed information such as ingredients, instructions, and options to mark it as a favourite or delete it.
-- **Recipe List**: Displays all saved recipes in a list format, showing the title, category, and a thumbnail image.
+### `npm start`
 
-### 3. **Favourite Recipes**
-- **Mark as Favourite**: Users can mark recipes as favourites. Favourite recipes are visually distinct in the list, making them easy to access.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 4. **Filtering and Searching**
-- **Filter by Category**: Users can filter recipes by selecting a category such as "Breakfast," "Lunch," "Dinner," or "Dessert."
-- **Search by Title**: A search bar allows users to filter recipes by typing part of the title.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 5. **Recipe Deletion**
-- **Delete Recipe**: Users can delete a recipe from the list, ensuring that only the recipes they want to keep remain in the app.
+### `npm test`
 
-### 6. **Persistence with Local Storage**
-- **Local Storage**: Recipes and their favourite status are saved in localStorage, ensuring that the data persists even after a page refresh.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 7. **User Notifications**
-- **User-Friendly Messages**: The app provides feedback with notifications for actions like "Recipe added," "Recipe deleted," and "Marked as favourite."
+### `npm run build`
 
-### 8. **Responsive Design**
-- The app is styled with a responsive design, making it user-friendly on both desktop and mobile devices.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 9. **CSS Styling**
-- **Distinctive Styling for Favourite Recipes**: Favourites are highlighted with a distinct style to make them easily recognizable.
-- **Organized Layout**: The app features a clean, well-organized layout for the form, recipe list, and other sections.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
